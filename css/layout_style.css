@@ -98,10 +98,39 @@ article {
 	background: rgb(102, 102, 204);
 	border: 2px solid rgb(255, 140, 26);
 	margin: 30px 30px;
-	margin-top: 90px;
+	margin-top: 80px;
 	color: white;
 }
 
+.contact {
+	font-size: 1.8em;
+	text-decoration: underline;
+}
+
+.standard {
+	font-size: 1em;
+	color: white;
+}
+
+.contact2 {	
+	font-size: 1.2em;
+	text-decoration: underline;
+}
+
+section {
+	width: 890px;
+	clear: both;	
+	text-align: center;
+	padding: 5px;
+	background: rgb(255, 204, 230);
+	margin: 30px 30px;
+	margin-top: 10px;
+	color: white;
+}
+
+/*================================
+		Table
+================================= */
 table {
 	width: 890px;
 	clear: both;	
@@ -123,15 +152,15 @@ table {
 	margin-right: 20px;
 }
 
-section {
-	width: 890px;
-	clear: both;	
-	text-align: center;
-	padding: 5px;
-	background: rgb(255, 204, 230);
-	margin: 30px 30px;
-	margin-top: 10px;
-	color: white;
+.mname {
+	font-size: 1.17em;
+	font-weight: bold;
+}
+
+.mprice {
+	font-size: 1.17em;
+	font-weight: bold;
+	color: #32CD32;
 }
 
 /*================================
@@ -195,6 +224,49 @@ section {
   left: -50px;
   bottom: 5px;
   background: rgb(255, 140, 26);
+}
+
+/*================================
+		Leave a Review
+================================= */
+
+form#review > fieldset {
+	width: 830px;
+	clear: both;	
+	text-align: center;
+	padding: 30px;
+	background: rgb(102, 102, 204);
+	border: 2px solid rgb(255, 140, 26);
+	margin: 30px 30px;
+	margin-top: 80px;
+	color: white;
+}
+
+div.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 20px;
+}
+
+div.formRow > * {
+	-webkit-flex: 1 1 150px;
+	flex: 1 1 150px;
+}
+	
+input[type='submit'] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+	color: white;
+	background-color: rgb(255, 140, 26);
+	border: 2px solid rgb(0,153,153);
+}
+
+textarea {
+	height: 20px;
+	width: 65%;
 }
 
 /* ==================================
